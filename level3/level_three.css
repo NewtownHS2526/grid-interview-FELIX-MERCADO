@@ -1,10 +1,127 @@
 .container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    text-align: center;
 }
 
+.day-title {
+    background-color: rgb(255, 130, 130);
+
 #grid-item-1 {
+    background-color: rgb(169, 169, 169);
+    grid-column: 1 / 5;
+    padding: 20px;
 }
 
 #grid-item-2 {
+    background-color: rgb(250, 255, 116);
+    grid-column: 5 / 7;
+    padding: 20px;
 }
 
 /* Add more grid-items as needed */
+
+#grid-item-3 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 7;
+    padding: 20px;
+}
+
+#grid-item-4 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 1;
+    padding: 20px;
+}
+
+#grid-item-5 {
+    background-color: rgb(250, 255, 116);
+    grid-column: 2 / 7;
+    padding: 20px;
+}
+
+#grid-item-6 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 7;
+    padding: 20px;
+}
+
+#grid-item-7 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 1;
+    padding: 20px;
+}
+
+#grid-item-8 {
+    background-color: rgb(255, 130, 130);
+    grid-column: 2;
+    padding: 20px;
+}
+
+
+#grid-item-9 {
+    background-color: rgb(250, 255, 116);
+    grid-column: 3 / 7;
+    padding: 20px;
+}
+
+
+#grid-item-10 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 7;
+    padding: 20px;
+}
+
+#grid-item-11 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 1;
+    padding: 20px;
+}
+
+#grid-item-12 {
+    background-color: rgb(250, 255, 116);
+    grid-column: 2;
+    padding: 20px;
+}
+
+#grid-item-13 {
+    background-color: rgb(255, 130, 130);
+    grid-column: 3;
+    padding: 20px;
+}
+
+#grid-item-14 {
+    background-color: rgb(250, 255, 116);
+    grid-column: 4 / 6;
+    padding: 20px;
+}
+
+#grid-item-15 {
+    background-color: rgb(255, 212, 104);
+    grid-column: 6;
+    padding: 20px;
+}
+
+#grid-item-16 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 7;
+    padding: 20px;
+}
+
+#grid-item-17 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 1;
+    padding: 20px;
+}
+
+#grid-item-18 {
+    background-color: rgb(122, 219, 255);
+    grid-column: 2 / 7;
+    padding: 20px;
+}
+
+#grid-item-19 {
+    background-color: rgb(124, 255, 131);
+    grid-column: 7;
+    padding: 20px;
+}

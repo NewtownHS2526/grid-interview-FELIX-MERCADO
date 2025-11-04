@@ -1,5 +1,241 @@
 .months-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+}
+
+
+.January {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.February {
+    background-color: rgb(219, 255, 164);
+    padding: 20px;
+}
+
+.March {
+    background-color: rgb(255, 255, 186);
+    padding: 20px;
+}
+
+.April {
+    background-color: rgb(255, 208, 121);
+    padding: 20px;
+}
+
+.May {
+    background-color: rgb(255, 161, 255);
+    padding: 20px;
+}
+
+.June {
+    background-color: rgb(255, 129, 129);
+    padding: 20px;
+}
+
+.July {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.August {
+    background-color: rgb(255, 208, 121);
+    padding: 20px;
+}
+
+.September {
+    background-color: rgb(255, 255, 186);
+    padding: 20px;
+}
+
+.October {
+    background-color: rgb(255, 161, 255);
+    padding: 20px;
+}
+
+.November {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.December {
+    background-color: rgb(255, 129, 129);
+    padding: 20px;
 }
 
 .days-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    text-align: center;
+}
+
+.Sunday {
+    background-color: skyblue;
+}
+
+.Monday {
+    background-color: rgb(255, 144, 144);
+}
+
+.Tuesday {
+    background-color: rgb(209, 255, 140);
+}
+
+.Wednesday {
+    background-color: skyblue;
+}
+
+.Thursday {
+    background-color: rgb(255, 144, 144);
+}
+
+.Friday {
+    background-color: rgb(209, 255, 140);
+}
+
+.Saturday {
+    background-color: skyblue;
+}
+
+.a1 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+.a2 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a3 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a4 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a5 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a6 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a7 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a8 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a9 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a10 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a11 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a12 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a13 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a14 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a15 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a16 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a17 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a18 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a19 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a20 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a21 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a22 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a23 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a24 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a25 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
+}
+
+.a26 {
+    background-color: rgb(209, 255, 140);
+    padding: 20px;
+}
+
+.a27 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.a28 {
+    background-color: rgb(255, 144, 144);
+    padding: 20px;
 }
